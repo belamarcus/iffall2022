@@ -1,0 +1,23 @@
+body {
+    background-color: black;
+}
+h1 {
+    color: ivory;
+    font-size: 50px;
+    font-weight: bold; 
+    text-align: center; 
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.scene {
+    background-color: ivory;
+    border: 5px solid rosybrown;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
