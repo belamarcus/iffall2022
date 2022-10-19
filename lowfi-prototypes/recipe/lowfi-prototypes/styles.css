@@ -1,0 +1,13 @@
+body {
+    background-color: floralwhite;
+    color: saddlebrown;
+    margin: 10%;
+}
+h1 {
+    font-size: 3rem;
+}
+p {
+    font-size: 2rem;
+    margin-bottom: 24px;
+    border: saddlebrown solid;
+}
