@@ -1,0 +1,114 @@
+body {
+    font-family: 'Archivo Narrow', sans-serif;
+    color: azure;
+}
+
+h1 {
+    font-size: 5rem;
+    padding-top: 150px;
+    margin-top: 0%;
+}
+
+.page-head {
+    text-align: center;
+    width: 100%;
+    vertical-align: middle;
+}
+
+.page-head p {
+    font-size: 2rem;
+    margin-top: -70px;
+}
+
+section.page-head {
+    height: 480px;
+    background-image: url(images/Page\ Head.jfif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+section.first-section {
+    padding-top: 5px;
+    padding-bottom: 40px;
+    background-color: chocolate;
+}
+
+h2 {
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+#first-image {
+    float: right;
+    width: 400px;
+    height: 300px;
+    margin: 0px 0px 23px 40px;
+    object-fit: cover;
+}
+
+section.first-section p {
+    width: 960px;
+    margin: 0 auto 16px auto;
+}
+
+p {
+    font-size: 1.125rem;
+    line-height: 1.4;
+}
+
+.gallery {
+    float: left;
+    height: 150px;
+    width: 200px;
+    object-fit: cover;
+    margin: 0 12px 0 0;
+}
+
+h3 {
+    margin: 0;
+    font-size: 1.25rem;
+}
+
+section.second-section {
+    padding-top: 5px;
+    padding-bottom: 40px;
+    background-color: cornflowerblue;
+}
+
+section.second-section ul {
+    list-style: none;
+    margin: auto;
+    width: 960px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+}
+
+section.second-section ul li {
+    width: 440px;
+    margin: 0 40px 24px 0;
+}
+
+section.second-section ul li p {
+    margin: 8px 0;
+}
+
+section.third-section {
+    padding-top: 5px;
+    padding-bottom: 100px;
+    background-color: chocolate;
+}
+
+section.third-section p {
+    width: 720px;
+    text-align: center;
+    margin: auto;
+    font-size: 1.625rem;
+}
+
+section.footer {
+    font-size: 1.125rem;
+    padding: 40px 30px;
+    background-color: cornflowerblue;
+}
