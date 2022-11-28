@@ -1,0 +1,137 @@
+body {
+    background-color: lightsteelblue;
+    font-family: 'Josefin Sans', sans-serif;
+    color:chocolate;
+    margin: 0;
+}
+
+a {
+    text-transform: uppercase;
+    color: floralwhite;
+}
+
+.block {
+    background-color: floralwhite;
+    padding: 2rem;
+    margin: 2rem auto;
+    width: 60%;
+    font-size: 1rem;
+    border-radius: 1rem;
+}
+
+h2 {
+    border-bottom: .1rem solid lightsteelblue;
+    padding-bottom: .2rem;
+    font-size: 2rem;
+    font-family: 'Abril Fatface', cursive;
+    margin-top: 0;
+    font-weight: 400;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-family: 'Abril Fatface', cursive;
+    color: floralwhite;
+    font-size: 4rem;
+    margin-right: -.4rem;
+    font-weight: 400;
+}
+
+#nav {
+    width: 100%;
+    margin: 0;
+    background-color: chocolate;
+    display: flex;
+    justify-content: center;
+}
+
+#nav a {
+    text-decoration: none;
+    display: flex;
+    padding: 1rem 4rem;
+}
+
+#nav a:hover {
+    font-weight: bold;
+}
+
+header {
+    display: block;
+}
+
+#hero {
+    display: flex;
+    width: 100%;
+    text-align: right;
+    justify-content: right;
+    background: lightsteelblue url(image/Spinach\ Artichoke\ Dip.jpg) center;
+    background-size: cover;
+    background-blend-mode: multiply;
+}
+
+#quick-info {
+    display: flex;
+    width: 100%;
+    background-color: floralwhite;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    text-align: center;
+    font-size: 1.2rem;
+    flex-direction: row;
+}
+
+@media (min-width: 600px) {
+    #quick-info {
+        width: 40%;
+        flex-direction: column;
+    }
+    #hero {
+        width: 60%;
+    }
+    h1 {
+        margin: 0;
+    }
+    header {
+        display: flex;
+    }
+}
+
+@media (max-width: 600px) {
+    hr {
+        display: none;
+    }
+    #quick-info {
+        justify-content: space-between;
+        font-size: .8rem;
+        padding: 1.2rem 0;
+    }
+    #quick-info p {
+        padding: 0 1rem;
+    }
+    #hero h1{
+        margin: 0;
+        font-size: 3rem;
+    }
+    h2 {
+        font-size: 1rem;
+    }
+    li {
+        font-size: .8rem;
+    }
+    p {
+        font-size: .8rem;
+    }
+}
+
+@media (max-width: 720px) {
+    #nav {
+        display: none;
+    }
+}
+
+hr {
+    border: lightsteelblue .05rem solid;
+    width: 10%;
+    border-radius: 1rem;
+}
